@@ -79,7 +79,7 @@ function SignUpBasic() {
       body: JSON.stringify({user: {
         email: email,
         password: password,
-        confirmation_password: confirmation_password
+        password_confirmation: confirmation_password
       }}),
     });
   
