@@ -22,7 +22,8 @@ config :api, ApiWeb.Endpoint,
 
 config :Api, Api.Guardian,
   issuer: "Api",
-  secret_key: "jrsRpoBwlYgi3d7GUFssLgYNJuYdAPQMDI6r9AeciOeeSQTDAHmubJcyCtVEf/bw"
+  secret_key: "jrsRpoBwlYgi3d7GUFssLgYNJuYdAPQMDI6r9AeciOeeSQTDAHmubJcyCtVEf/bw",
+  ttl: {2, :hours}
 
 # Configures the mailer
 #
