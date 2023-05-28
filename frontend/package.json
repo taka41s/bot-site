@@ -3,9 +3,10 @@
   "version": "2.1.0",
   "private": true,
   "author": "Creative Tim",
+  "proxy": "http://localhost:4000",
+  "homepage": "http://localhost:4000",
   "license": "See license in https://www.creative-tim.com/license",
   "description": "React version of Material Kit 2 by Creative Tim",
-  "homepage": "https://demos.creative-tim.com/material-kit-react/#/",
   "bugs": {
     "url": "https://github.com/creativetimofficial/ct-material-kit-react/issues"
   },
@@ -24,7 +25,9 @@
     "@testing-library/react": "14.0.0",
     "@testing-library/user-event": "14.4.3",
     "chroma-js": "2.4.2",
+    "cors": "^2.8.5",
     "flatpickr": "4.6.13",
+    "http-proxy-middleware": "^2.0.6",
     "prop-types": "15.8.1",
     "react": "18.2.0",
     "react-copy-to-clipboard": "5.1.0",
@@ -54,7 +57,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
   }
 }

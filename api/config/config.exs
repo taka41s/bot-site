@@ -25,6 +25,7 @@ config :Api, Api.Guardian,
   secret_key: "jrsRpoBwlYgi3d7GUFssLgYNJuYdAPQMDI6r9AeciOeeSQTDAHmubJcyCtVEf/bw",
   ttl: {2, :hours}
 
+
 # Configures the mailer
 #
 # By default it uses the "Local" adapter which stores the emails
@@ -43,6 +44,7 @@ config :esbuild,
     cd: Path.expand("../assets", __DIR__),
     env: %{"NODE_PATH" => Path.expand("../deps", __DIR__)}
   ]
+
 
 # Configure tailwind (the version is required)
 config :tailwind,

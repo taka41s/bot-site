@@ -32,7 +32,7 @@ defmodule ApiWeb.Router do
     import Phoenix.LiveDashboard.Router
 
     scope "/dev" do
-      pipe_through [:fetch_session, :protect_from_forgery]
+      pipe_through [:fetch_session, :protect_from_forgery, :jwt_authenticated]
 
       live_dashboard "/dashboard", metrics: ApiWeb.Telemetry
       forward "/mailbox", Plug.Swoosh.MailboxPreview

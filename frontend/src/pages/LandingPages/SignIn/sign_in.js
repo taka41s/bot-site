@@ -47,8 +47,51 @@ import bgImage from "assets/images/bg-sign-in-basic.jpeg";
 
 function SignInBasic() {
   const [rememberMe, setRememberMe] = useState(false);
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  
+  const handleEmailChange = (event) => {
+    const newEmail = event.target.value;
+    console.log('Email:', newEmail);
+    setEmail(newEmail);
+  };
+  
+  const handlePasswordChange = (event) => {
+    const newPassword = event.target.value;
+    console.log('Password:', newPassword);
+    setPassword(newPassword);
+  };
+  
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    
+    const response = await fetch('http://localhost:4000/api/v1/sign_in', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email: email,
+        password: password,
+      }),
+    });
+  
+    if (response.ok) {
+      // Request succeeded
+      const data = await response.json();
+      const jwtToken = data.jwt; // Assuming the JWT token is returned as "jwt" in the response
+  
+      // Do something with the JWT token (e.g., store it in local storage or context)
+      console.log(jwtToken);
+    } else {
+      // Request failed
+      console.log('Request failed');
+    }
+  };
+  
 
   const handleSetRememberMe = () => setRememberMe(!rememberMe);
+
 
   return (
     <>
@@ -118,12 +161,12 @@ function SignInBasic() {
                 </Grid>
               </MKBox>
               <MKBox pt={4} pb={3} px={3}>
-                <MKBox component="form" role="form">
+                <MKBox component="form" role="form" onSubmit={handleSubmit}>
                   <MKBox mb={2}>
-                    <MKInput type="email" label="Email" fullWidth />
+                    <MKInput type="email" label="Email" fullWidth onChange={handleEmailChange} />
                   </MKBox>
                   <MKBox mb={2}>
-                    <MKInput type="password" label="Password" fullWidth />
+                    <MKInput type="password" label="Password" onChange={handlePasswordChange} fullWidth />
                   </MKBox>
                   <MKBox display="flex" alignItems="center" ml={-1}>
                     <Switch checked={rememberMe} onChange={handleSetRememberMe} />
@@ -138,7 +181,7 @@ function SignInBasic() {
                     </MKTypography>
                   </MKBox>
                   <MKBox mt={4} mb={1}>
-                    <MKButton variant="gradient" color="info" fullWidth>
+                    <MKButton type="submit" variant="gradient" color="info" fullWidth>
                       sign in
                     </MKButton>
                   </MKBox>
@@ -147,7 +190,7 @@ function SignInBasic() {
                       Don&apos;t have an account?{" "}
                       <MKTypography
                         component={Link}
-                        to="/authentication/sign-up/cover"
+                        to="/authentication/sign-up"
                         variant="button"
                         color="info"
                         fontWeight="medium"

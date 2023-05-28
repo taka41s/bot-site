@@ -23,6 +23,12 @@ defmodule ApiWeb.Endpoint do
     gzip: false,
     only: ApiWeb.static_paths()
 
+  plug Corsica,
+    origins: "http://localhost:3000",
+    log: [rejected: :error, invalid: :warn, accepted: :debug],
+    allow_headers: :all,
+    allow_credentials: true
+
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.
   if code_reloading? do
