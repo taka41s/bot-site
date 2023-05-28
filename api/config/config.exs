@@ -20,6 +20,10 @@ config :api, ApiWeb.Endpoint,
   pubsub_server: Api.PubSub,
   live_view: [signing_salt: "7u71OSn5"]
 
+config :Api, Api.Guardian,
+  issuer: "Api",
+  secret_key: "jrsRpoBwlYgi3d7GUFssLgYNJuYdAPQMDI6r9AeciOeeSQTDAHmubJcyCtVEf/bw"
+
 # Configures the mailer
 #
 # By default it uses the "Local" adapter which stores the emails
