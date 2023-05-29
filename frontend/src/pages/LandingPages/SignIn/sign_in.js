@@ -80,7 +80,8 @@ function SignInBasic() {
       // Request succeeded
       const data = await response.json();
       const jwtToken = data.jwt; // Assuming the JWT token is returned as "jwt" in the response
-  
+      localStorage.setItem('token', jwtToken);
+      localStorage.setItem('isLoggedIn', true);
       // Do something with the JWT token (e.g., store it in local storage or context)
       console.log(jwtToken);
     } else {
