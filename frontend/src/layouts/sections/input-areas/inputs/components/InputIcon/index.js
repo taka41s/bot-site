@@ -1,11 +1,11 @@
 /* eslint-disable no-param-reassign */
 /**
 =========================================================
-* Material Kit 2 React - v2.1.0
+* Name
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://github.com/taka41sproduct/material-kit-react
+* Copyright 2023 Taka41s (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
 
@@ -22,7 +22,7 @@ import InputAdornment from "@mui/material/InputAdornment";
 // @mui icons
 import SearchIcon from "@mui/icons-material/Search";
 
-// Material Kit 2 React components
+// Name React components
 import MKBox from "components/MKBox";
 import MKInput from "components/MKInput";
 

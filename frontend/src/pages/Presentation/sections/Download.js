@@ -1,10 +1,10 @@
 /*
 =========================================================
-* Material Kit 2 React - v2.1.0
+* Name
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://github.com/taka41sproduct/material-kit-react
+* Copyright 2023 Taka41s (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
 
@@ -18,7 +18,7 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Tooltip from "@mui/material/Tooltip";
 
-// Material Kit 2 React components
+// Name React components
 import MKBox from "components/MKBox";
 import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
@@ -57,7 +57,7 @@ function Download() {
             </MKTypography>
             <MKTypography variant="body2" color="white" mb={6}>
               Cause if you do, it can be yours for FREE. Hit the button below to navigate to
-              Creative Tim where you can find the Design System in HTML. Start a new project or give
+              Taka41s where you can find the Design System in HTML. Start a new project or give
               an old Bootstrap project a new look!
             </MKTypography>
             <MKButton
@@ -65,7 +65,7 @@ function Download() {
               color="info"
               size="large"
               component="a"
-              href="https://www.creative-tim.com/product/material-kit-react"
+              href="https://github.com/taka41sproduct/material-kit-react"
               sx={{ mb: 2 }}
             >
               Download Now
@@ -84,7 +84,7 @@ function Download() {
                 <Tooltip title="Bootstrap 5 - Most popular front-end component library">
                   <MKBox
                     component="a"
-                    href="https://www.creative-tim.com/product/material-kit"
+                    href="https://github.com/taka41sproduct/material-kit"
                     target="_blank"
                   >
                     <MKBox
@@ -150,7 +150,7 @@ function Download() {
                 <Tooltip title="Comming soon">
                   <MKBox
                     component="a"
-                    href="https://www.creative-tim.com/product/material-kit-react"
+                    href="https://github.com/taka41sproduct/material-kit-react"
                     target="_blank"
                   >
                     <MKBox

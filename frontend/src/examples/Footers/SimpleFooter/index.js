@@ -1,10 +1,10 @@
 /**
 =========================================================
-* Material Kit 2 React - v2.1.0
+* Name
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://github.com/taka41sproduct/material-kit-react
+* Copyright 2023 Taka41s (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
 
@@ -21,11 +21,11 @@ import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
 import Icon from "@mui/material/Icon";
 
-// Material Kit 2 React components
+// Name React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-// Material Kit 2 React base styles
+// Name React base styles
 import typography from "assets/theme/base/typography";
 
 function SimpleFooter({ company, links, light }) {
@@ -106,12 +106,12 @@ function SimpleFooter({ company, links, light }) {
 
 // Setting default values for the props of SimpleFooter
 SimpleFooter.defaultProps = {
-  company: { href: "https://www.creative-tim.com/", name: "Creative Tim" },
+  company: { href: "https://github.com/taka41s", name: "Taka41s" },
   links: [
-    { href: "https://www.creative-tim.com/", name: "Creative Tim" },
-    { href: "https://www.creative-tim.com/presentation", name: "About Us" },
-    { href: "https://www.creative-tim.com/blog", name: "Blog" },
-    { href: "https://www.creative-tim.com/license", name: "License" },
+    { href: "https://github.com/taka41s", name: "Taka41s" },
+    { href: "https://github.com/taka41spresentation", name: "About Us" },
+    { href: "https://github.com/taka41sblog", name: "Blog" },
+    { href: "https://github.com/taka41slicense", name: "License" },
   ],
   light: false,
 };

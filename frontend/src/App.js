@@ -1,10 +1,10 @@
 /**
 =========================================================
-* Material Kit 2 React - v2.1.0
+* Name
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://github.com/taka41sproduct/material-kit-react
+* Copyright 2023 Taka41s (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
 
@@ -22,11 +22,11 @@ import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 
-// Material Kit 2 React themes
+// Name React themes
 import theme from "assets/theme";
 import Presentation from "layouts/pages/presentation";
 
-// Material Kit 2 React routes
+// Name React routes
 import routes from "routes";
 
 export default function App() {

@@ -1,10 +1,10 @@
 /**
 =========================================================
-* Material Kit 2 React - v2.1.0
+* Name
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://github.com/taka41sproduct/material-kit-react
+* Copyright 2023 Taka41s (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
 
@@ -17,7 +17,7 @@ Coded by www.creative-tim.com
   The boxShadow() function helps you to create a box shadow for an element
  */
 
-// Material Kit 2 React helper functions
+// Name React helper functions
 import rgba from "assets/theme/functions/rgba";
 import pxToRem from "assets/theme/functions/pxToRem";
 

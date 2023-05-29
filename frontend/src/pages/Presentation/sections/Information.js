@@ -1,10 +1,10 @@
 /*
 =========================================================
-* Material Kit 2 React - v2.1.0
+* Name
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://github.com/taka41sproduct/material-kit-react
+* Copyright 2023 Taka41s (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
 
@@ -17,10 +17,10 @@ Coded by www.creative-tim.com
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
-// Material Kit 2 React components
+// Name React components
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
+// Name React examples
 import RotatingCard from "examples/Cards/RotatingCard";
 import RotatingCardFront from "examples/Cards/RotatingCard/RotatingCardFront";
 import RotatingCardBack from "examples/Cards/RotatingCard/RotatingCardBack";
@@ -44,7 +44,7 @@ function Information() {
                   <>
                     Feel the
                     <br />
-                    Material Kit
+                    Attendant Bot
                   </>
                 }
                 description="All the MUI components that you need in a development have been re-design with the new look."

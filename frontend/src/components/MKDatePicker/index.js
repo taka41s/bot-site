@@ -1,10 +1,10 @@
 /**
 =========================================================
-* Material Kit 2 React - v2.1.0
+* Name
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://github.com/taka41sproduct/material-kit-react
+* Copyright 2023 Taka41s (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
 
@@ -22,7 +22,7 @@ import Flatpickr from "react-flatpickr";
 // react-flatpickr styles
 import "flatpickr/dist/flatpickr.css";
 
-// Material Kit 2 React components
+// Name React components
 import MKInput from "components/MKInput";
 
 function MKDatePicker({ input, ...rest }) {

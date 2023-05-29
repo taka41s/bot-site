@@ -1,10 +1,10 @@
 /*
 =========================================================
-* Material Kit 2 React - v2.1.0
+* Name
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://github.com/taka41sproduct/material-kit-react
+* Copyright 2023 Taka41s (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
 
@@ -18,11 +18,11 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Divider from "@mui/material/Divider";
 
-// Material Kit 2 React components
+// Name React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-// Material Kit 2 React examples
+// Name React examples
 import DefaultReviewCard from "examples/Cards/ReviewCards/DefaultReviewCard";
 
 // Images
@@ -50,7 +50,7 @@ function Information() {
           </MKTypography>
           <MKTypography variant="body1" color="text" mb={2}>
             Many Fortune 500 companies, startups, universities and governmental institutions love
-            Creative Tim&apos;s products.
+            Taka41s&apos;s products.
           </MKTypography>
         </Grid>
         <Grid container spacing={3} sx={{ mt: 8 }}>
@@ -67,7 +67,7 @@ function Information() {
               color="info"
               name="Shailesh Kushwaha"
               date="1 week ago"
-              review="I found solution to all my design needs from Creative Tim. I use them as a freelancer in my hobby projects for fun! And its really affordable, very humble guys !!!"
+              review="I found solution to all my design needs from Taka41s. I use them as a freelancer in my hobby projects for fun! And its really affordable, very humble guys !!!"
               rating={5}
             />
           </Grid>

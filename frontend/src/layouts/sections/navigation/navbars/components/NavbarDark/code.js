@@ -1,7 +1,7 @@
-const navbarDarkCode = `// Material Kit 2 React components
+const navbarDarkCode = `// Name React components
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
+// Name React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Routes
@@ -14,7 +14,7 @@ function NavbarDark() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
+          route: "https://github.com/taka41sproduct/material-kit-react",
           label: "free download",
           color: "info",
         }}

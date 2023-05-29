@@ -1,10 +1,10 @@
 /*
 =========================================================
-* Material Kit 2 React - v2.1.0
+* Name
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://github.com/taka41sproduct/material-kit-react
+* Copyright 2023 Taka41s (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
 
@@ -18,12 +18,12 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 
-// Material Kit 2 React components
+// Name React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import MKSocialButton from "components/MKSocialButton";
 
-// Material Kit 2 React examples
+// Name React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
@@ -53,7 +53,7 @@ function Presentation() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
+          route: "https://github.com/taka41sproduct/material-kit-react",
           label: "Login",
           color: "info",
         }}
@@ -126,7 +126,7 @@ function Presentation() {
                 description="Check the possible ways of working with our product and the necessary files for building your own project."
                 action={{
                   type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/overview/material-kit/",
+                  route: "https://github.com/taka41slearning-lab/react/overview/material-kit/",
                   label: "Let's start",
                 }}
               />
@@ -136,10 +136,10 @@ function Presentation() {
                 color="info"
                 icon="precision_manufacturing"
                 title="Plugins"
-                description="Get inspiration and have an overview about the plugins that we used to create the Material Kit."
+                description="Get inspiration and have an overview about the plugins that we used to create the Attendant Bot."
                 action={{
                   type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/overview/datepicker/",
+                  route: "https://github.com/taka41slearning-lab/react/overview/datepicker/",
                   label: "Read more",
                 }}
               />
@@ -149,10 +149,10 @@ function Presentation() {
                 color="info"
                 icon="apps"
                 title="Components"
-                description="Material Kit is giving you a lot of pre-made components, that will help you to build UI's faster."
+                description="Attendant Bot is giving you a lot of pre-made components, that will help you to build UI's faster."
                 action={{
                   type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
+                  route: "https://github.com/taka41slearning-lab/react/alerts/material-kit/",
                   label: "Read more",
                 }}
               />
@@ -192,7 +192,7 @@ function Presentation() {
                 </MKSocialButton>
                 <MKSocialButton
                   component="a"
-                  href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/material-kit-react"
+                  href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/taka41sproduct/material-kit-react"
                   target="_blank"
                   color="facebook"
                   sx={{ mr: 1 }}
@@ -202,7 +202,7 @@ function Presentation() {
                 </MKSocialButton>
                 <MKSocialButton
                   component="a"
-                  href="https://www.pinterest.com/pin/create/button/?url=https://www.creative-tim.com/product/material-kit-react"
+                  href="https://www.pinterest.com/pin/create/button/?url=https://github.com/taka41sproduct/material-kit-react"
                   target="_blank"
                   color="pinterest"
                 >

@@ -4,7 +4,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
-// Material Kit 2 React components
+// Name React components
 import MKTypography from "components/MKTypography";
 
 // Images
@@ -14,7 +14,7 @@ const date = new Date().getFullYear();
 
 export default {
   brand: {
-    name: "Material Kit 2",
+    name: "Attendant Bot",
     image: logoCT,
     route: "/",
   },
@@ -40,41 +40,41 @@ export default {
     {
       name: "company",
       items: [
-        { name: "about us", href: "https://www.creative-tim.com/presentation" },
-        { name: "freebies", href: "https://www.creative-tim.com/templates/free" },
-        { name: "premium tools", href: "https://www.creative-tim.com/templates/premium" },
-        { name: "blog", href: "https://www.creative-tim.com/blog" },
+        { name: "about us", href: "https://github.com/taka41spresentation" },
+        { name: "freebies", href: "https://github.com/taka41stemplates/free" },
+        { name: "premium tools", href: "https://github.com/taka41stemplates/premium" },
+        { name: "blog", href: "https://github.com/taka41sblog" },
       ],
     },
     {
       name: "resources",
       items: [
         { name: "illustrations", href: "https://iradesign.io/" },
-        { name: "bits & snippets", href: "https://www.creative-tim.com/bits" },
-        { name: "affiliate program", href: "https://www.creative-tim.com/affiliates/new" },
+        { name: "bits & snippets", href: "https://github.com/taka41sbits" },
+        { name: "affiliate program", href: "https://github.com/taka41saffiliates/new" },
       ],
     },
     {
       name: "help & support",
       items: [
-        { name: "contact us", href: "https://www.creative-tim.com/contact-us" },
-        { name: "knowledge center", href: "https://www.creative-tim.com/knowledge-center" },
+        { name: "contact us", href: "https://github.com/taka41scontact-us" },
+        { name: "knowledge center", href: "https://github.com/taka41sknowledge-center" },
         { name: "custom development", href: "https://services.creative-tim.com/" },
-        { name: "sponsorships", href: "https://www.creative-tim.com/sponsorships" },
+        { name: "sponsorships", href: "https://github.com/taka41ssponsorships" },
       ],
     },
     {
       name: "legal",
       items: [
-        { name: "terms & conditions", href: "https://www.creative-tim.com/terms" },
-        { name: "privacy policy", href: "https://www.creative-tim.com/privacy" },
-        { name: "licenses (EULA)", href: "https://www.creative-tim.com/license" },
+        { name: "terms & conditions", href: "https://github.com/taka41sterms" },
+        { name: "privacy policy", href: "https://github.com/taka41sprivacy" },
+        { name: "licenses (EULA)", href: "https://github.com/taka41slicense" },
       ],
     },
   ],
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
-      All rights reserved. Copyright &copy; {date} Material Kit by{" "}
+      All rights reserved. Copyright &copy; {date} Attendant Bot by{" "}
       <MKTypography
         component="a"
         href="https://www.creative-tim.com"
@@ -83,7 +83,7 @@ export default {
         variant="button"
         fontWeight="regular"
       >
-        Creative Tim
+        Taka41s
       </MKTypography>
       .
     </MKTypography>
