@@ -53,7 +53,7 @@ function Presentation() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://github.com/taka41sproduct/material-kit-react",
+          route: "/authentication/sign-in",
           label: "Login",
           color: "info",
         }}
