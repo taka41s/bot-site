@@ -29,7 +29,7 @@ export default {
     },
     {
       icon: <GitHubIcon />,
-      link: "https://github.com/creativetimofficial",
+      link: "https://github.com/taka41s",
     },
     {
       icon: <YouTubeIcon />,
@@ -38,37 +38,37 @@ export default {
   ],
   menus: [
     {
-      name: "company",
+      name: "Company",
       items: [
-        { name: "about us", href: "https://github.com/taka41spresentation" },
-        { name: "freebies", href: "https://github.com/taka41stemplates/free" },
-        { name: "premium tools", href: "https://github.com/taka41stemplates/premium" },
-        { name: "blog", href: "https://github.com/taka41sblog" },
+        { name: "about us", href: "https://github.com/taka41s" },
+        { name: "freebies", href: "https://github.com/taka41s" },
+        { name: "premium tools", href: "https://github.com/taka41s" },
+        { name: "blog", href: "https://github.com/taka41s" },
       ],
     },
     {
       name: "resources",
       items: [
         { name: "illustrations", href: "https://iradesign.io/" },
-        { name: "bits & snippets", href: "https://github.com/taka41sbits" },
-        { name: "affiliate program", href: "https://github.com/taka41saffiliates/new" },
+        { name: "bits & snippets", href: "https://github.com/taka41s" },
+        { name: "affiliate program", href: "https://github.com/taka41s" },
       ],
     },
     {
       name: "help & support",
       items: [
-        { name: "contact us", href: "https://github.com/taka41scontact-us" },
-        { name: "knowledge center", href: "https://github.com/taka41sknowledge-center" },
-        { name: "custom development", href: "https://services.creative-tim.com/" },
-        { name: "sponsorships", href: "https://github.com/taka41ssponsorships" },
+        { name: "contact us", href: "https://github.com/taka41s" },
+        { name: "knowledge center", href: "https://github.com/taka41s" },
+        { name: "custom development", href: "https://github.com/taka41s"},
+        { name: "sponsorships", href: "https://github.com/taka41s" },
       ],
     },
     {
       name: "legal",
       items: [
-        { name: "terms & conditions", href: "https://github.com/taka41sterms" },
-        { name: "privacy policy", href: "https://github.com/taka41sprivacy" },
-        { name: "licenses (EULA)", href: "https://github.com/taka41slicense" },
+        { name: "terms & conditions", href: "https://github.com/taka41s" },
+        { name: "privacy policy", href: "https://github.com/taka41s" },
+        { name: "licenses (EULA)", href: "https://github.com/taka41s" },
       ],
     },
   ],
@@ -77,7 +77,7 @@ export default {
       All rights reserved. Copyright &copy; {date} Attendant Bot by{" "}
       <MKTypography
         component="a"
-        href="https://www.creative-tim.com"
+        href=""
         target="_blank"
         rel="noreferrer"
         variant="button"

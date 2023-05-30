@@ -22,6 +22,12 @@ defmodule ApiWeb.Router do
     get "/my_user", UserController, :show
   end
 
+  scope "/api/v1/products" do
+    pipe_through [:api, :jwt_authenticated]
+
+    post "/create", ProductController, :create
+  end
+
   # Enable LiveDashboard and Swoosh mailbox preview in development
   if Application.compile_env(:api, :dev_routes) do
     # If you want to use the LiveDashboard in production, you should put

@@ -20,7 +20,7 @@ config :api, ApiWeb.Endpoint,
   pubsub_server: Api.PubSub,
   live_view: [signing_salt: "7u71OSn5"]
 
-config :Api, Api.Guardian,
+config :api, Api.Guardian,
   issuer: "Api",
   secret_key: "jrsRpoBwlYgi3d7GUFssLgYNJuYdAPQMDI6r9AeciOeeSQTDAHmubJcyCtVEf/bw",
   ttl: {2, :hours}

@@ -89,7 +89,7 @@ function Download() {
                   >
                     <MKBox
                       component="img"
-                      src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/bootstrap5.jpg"
+                      src="https://raw.githubusercontent.com/taka41s/public-assets/master/logos/bootstrap5.jpg"
                       width="100%"
                     />
                   </MKBox>
@@ -106,7 +106,7 @@ function Download() {
                   >
                     <MKBox
                       component="img"
-                      src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/icon-tailwind.jpg"
+                      src="https://raw.githubusercontent.com/taka41s/public-assets/master/logos/icon-tailwind.jpg"
                       width="100%"
                     />
                   </MKBox>
